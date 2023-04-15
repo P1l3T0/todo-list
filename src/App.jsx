@@ -56,7 +56,8 @@ export default function App() {
                 <TodoList
                     todos={todos}
                     toggleTodo={toggleTodo}
-                    deleteTodo={deleteTodo} />
+                    deleteTodo={deleteTodo}
+                />
             </div>
         </>
     );
