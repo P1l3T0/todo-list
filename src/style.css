@@ -1,0 +1,92 @@
+@import url("https://fonts.google.com/share?selection.family=Poppins:wght@100");
+
+* {
+    /* outline: solid 1px green; */
+    font-family: "Popins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(58, 58, 104);
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todo-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem;
+}
+
+.todo-text label {
+    font-weight: 800;
+    font-size: 3rem;
+    color:  rgb(185, 185, 255); 
+    text-shadow: 2px 2px 2px white;
+}
+
+.todo-text input {
+    color: white;
+    width: 20rem;
+    height: 2rem;
+    margin: .5rem 0;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: 1px solid rgb(161, 161, 255);   
+    background-color: rgb(113, 113, 231);
+}
+
+.todo-text button {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    color:  rgb(135, 135, 216); 
+    text-shadow: 2px 2px 2px rgb(182, 182, 182);
+    border-radius: 10px;
+    border: 1px solid rgb(113, 113, 231);
+}
+
+.todo-list h1 {
+    font-weight: 800;
+    font-size: 4rem;
+    color:  rgb(185, 185, 255); 
+    text-shadow: 2px 2px 2px white;
+}
+
+.todo-list ul {
+    list-style: none;
+    text-align: center;
+
+}
+
+.todo-list ul li {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.todo-list ul li button {
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 .5rem;
+    padding: 0 .5rem;
+    color: rgb(172, 0, 0);
+    border: 2px solid rgb(78, 0, 0);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: 500ms ease-in-out;
+}
+
+.todo-list ul li button:hover {
+    background-color: rgb(78, 0, 0);
+    color: white;
+}
